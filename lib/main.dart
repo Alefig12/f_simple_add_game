@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       home: const Scaffold(
-        body: SafeArea(child: HomePage()),
+        body: SafeArea(key: Key('HomePage'), child: HomePage()),
       ),
     );
   }
